@@ -1,21 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--theme-font-family);
+  color: var(--theme-text-primary);
+}
+
+:root {
+  --theme-font-family: "Rubik", serif;
+  --theme-light: 400;
+  --theme-bold: 500;
+  --theme-Extrabold: 700;
+  --theme-2xl: 52px;
+  --theme-xl: 44px;
+  --theme-lg: 38px;
+  --theme-md: 32px;
+  --theme-sm: 24px;
+  --theme-xs: 15px;
+  --theme-border-light: 1px solid #bdbdbd;
+  --theme-darkshadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --theme-primary-one: #ffa03a;
+  --theme-primary-one-light: #fff0e6;
+  --theme-gradient: linear-gradient(112deg, #fff6e9, #ffb15d);
+  --theme-dark-gradient: linear-gradient(112deg, #fff6e9, #ffb15d);
+  --theme-light: #ffffff;
+  --theme-text-primary: #160803;
+  --theme-text-secondary: #5e5e5e;
+  --theme-light-border: rgba(255, 127, 24, 0.2);
+  --theme-fullradius: 60px;
+  --theme-normalradius: 8px;
+  --theme-lightshadow: 0 4px 46px 12px rgba(0, 0, 0, 0.02);
+  --theme-darkshadow: ;
+  --theme-tranistion: all 0.9s ease;
+}
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply -font--theme-font-family
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.ptb60 {
+  @apply pt-20 pb-20;
+}
+
+.pt60 {
+  @apply pt-20;
+}
+
+.pb60 {
+  @apply pb-20;
+}
+
+.p30 {
+  @apply p-8
+}
+
+.px30 {
+  @apply px-8
+}
+
+.ptb30 {
+  @apply pt-8 pb-8
+}
+
+.pt30 {
+  @apply pt-8
+}
+
+.pb30 {
+  @apply pb-8
+}
+
+.p20 {
+  @apply p-5;
+}
+
+.ptb20 {
+  @apply pt-5 pb-5;
+}
+
+.pt20 {
+  @apply pt-5;
+}
+
+.pb20 {
+  @apply pb-5;
+}
+
+.px20 {
+  @apply px-5;
+}
+
+.mtb10 {
+  @apply mt-2 mb-2;
+}
+
+.mt10 {
+  @apply mt-2;
+}
+
+.mb10 {
+  @apply mb-2;
+}
+
+.mx10 {
+  @apply mr-2 ml-2;
+}
+
+.mtb20 {
+  @apply mt-5 mb-5;
+}
+
+.mt20 {
+  @apply mt-5;
+}
+
+.mb20 {
+  @apply mb-5;
+}
+
+.writebtn {
+  @apply flex items-center gap-x-2 -text--theme-primary-one -text--theme-xs -font--theme-bold hover:tracking-wider transition-all delay-100 ease-linear
+}
+
+.hoverdarkbtn {
+  @apply border border-solid -border--theme-primary-one bg-transparent hover:-bg--theme-primary-one text-center -text--theme-primary-one hover:-text--theme-light block w-full p-2 -rounded--theme-normalradius delay-300 ease-linear;
+}
+
+.darkbtn {
+  @apply border border-solid -border--theme-primary-one -bg--theme-gradient hover:bg-transparent text-center -text--theme-light hover:-text--theme-light py-2 px20 -rounded--theme-normalradius hover:tracking-wider transition-all delay-100 ease-linear;
+}
+
+.lefttitle {
+  @apply -text--theme-sm md:-text--theme-md -font--theme-Extrabold mb10;
+}
+
+.categorycard {
+  @apply p20 -shadow--theme-darkshadow border border-solid border-["#bdbdbd"] h-full -rounded--theme-normalradius bg-white transition-all delay-75 ease-in-out
+}
+
+.testimonialcard {
+  @apply h-full flex gap-x-5 border border-solid -border--theme-primary-one -bg--theme-primary-one-light -rounded--theme-normalradius p30 relative overflow-hidden mb20;
+}
+
+.testimonialcard::after {
+  content: "";
+  @apply absolute top-0 left-0 w-[2px] -rounded--theme-fullradius h-full -bg--theme-primary-one;
+}
+
+.applyinput {
+  @apply w-full border border-solid border-[#bdbdbd] py-3 px20 rounded-md focus:-border--theme-primary-one focus:outline-none
+}
+
+.section-padding {
+  padding: 50px 0;
+}
+
+img {
+  width: auto;
+  height: auto;
 }
