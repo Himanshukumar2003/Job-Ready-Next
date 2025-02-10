@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-theme-light py-3">
-      <div className="container">
+      <div className="container ">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div>
@@ -42,9 +42,9 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden lg:flex items-center gap-x-5">
+          <ul className="hidden z-[9999] xl:flex items-center gap-x-5">
             {NavbarUl.map((val) => (
-              <li key={val.id} className="relative">
+              <li key={val.id} className="relative ">
                 {val.isDropdown ? (
                   <div
                     className="cursor-pointer font-theme-light text-theme-text-primary text-[19px] relative"
@@ -53,16 +53,16 @@ const Navbar = () => {
                   >
                     {val.Menu}
                     {courseDropdown && (
-                      <div className="absolute top-full left-0 pt-5">
-                        <ul className=" bg-white shadow-md rounded-md   w-48">
+                      <div className="absolute top-full left-0  z-99">
+                        <ul className=" bg-white shadow-md rounded-md  w-48">
                           {val.subMenu.map((sub) => (
                             <li
                               key={sub.id}
-                              className="py-2 px-4 group hover:bg-gray-100"
+                              className="py-2 px-4 hover:bg-gray-100 group"
                             >
                               <Link
                                 href={sub.link}
-                                className="text-[16px] group-hover:-text--theme-primary-one"
+                                className="text-sm group-hover:-text--theme-primary-one"
                               >
                                 {sub.name}
                               </Link>

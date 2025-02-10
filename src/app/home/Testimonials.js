@@ -102,7 +102,7 @@ const TestimonialsCardShow = () => {
         }
     ]
   return (
-    <div className='ptb60 '>
+    <section className='ptb60 '>
         <div className="container">
             <div className="grid grid-cols-12 gap-4">
                 <div className="col-span-12 lg:col-span-5">
@@ -139,7 +139,7 @@ const TestimonialsCardShow = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

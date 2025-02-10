@@ -185,6 +185,6 @@ img {
   height: auto;
 }
 
-.container{
-  overflow: hidden !important;
-}
+section{
+  overflow: hidden ;
+} 

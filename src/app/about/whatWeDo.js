@@ -95,7 +95,7 @@ const WhatDoWeDo = () => {
             <div className={`grid grid-cols-12 gap-x-0 md:gap-x-10`}>
               <div
                 className={`col-span-12 md:col-span-4 ${
-                  val.id % 2 === 0 ? "order-1" : "order-2"
+                  val.id % 2 === 0 ? "order-1 lg:order-2 " : "order-2 lg:order-1"
                 }`}
               >
                 <div className="h-auto md:h-full flex items-center justify-center">
@@ -111,7 +111,7 @@ const WhatDoWeDo = () => {
               </div>
               <div
                 className={`col-span-12 md:col-span-8 ${
-                  val.id % 2 === 0 ? "order-2" : "order-1"
+                  val.id % 2 === 0 ? "order-2 lg:order-1" : "order-2 lg:order-1"
                 }`}
               >
                 <div className="flex justify-center flex-col h-full border border-solid border-[#bdbdbd] bg-white -shadow--theme-lightshadow p20 md:p30 -rounded--theme-normalradius">

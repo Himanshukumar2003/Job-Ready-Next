@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 const ForStudent = () => {
   const StudentMaping = [
@@ -7,14 +8,14 @@ const ForStudent = () => {
       id: 1,
       StudentName: "Long Term Courses",
       StudentPara: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      StudentLink: "/long-terms",
+      StudentLink: "/long-term-course",
       StudentImg: "/assets/employee1.svg",
     },
     {
       id: 2,
       StudentName: "Short Term Courses",
       StudentPara: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      StudentLink: "",
+      StudentLink: "/courses",
       StudentImg: "/assets/employee2.svg",
     },
   ];
@@ -31,7 +32,7 @@ const ForStudent = () => {
                     {val.StudentName}
                   </h4>
                   <p className="mb20">{val.StudentPara}</p>
-                  <button className="darkbtn">View All</button>
+                  <Link href={val.StudentLink} className="darkbtn">View All</Link>
                 </div>
                 <div>
                   <Image height={300} width={300} src={val.StudentImg} alt="Student Image" />
