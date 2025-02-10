@@ -104,15 +104,15 @@ const TestimonialsCardShow = () => {
   return (
     <div className='ptb60 '>
         <div className="container">
-            <div className="grid grid-cols-12 gap-x-10">
-                <div className="col-span-12 md:col-span-5">
+            <div className="grid grid-cols-12 gap-4">
+                <div className="col-span-12 lg:col-span-5">
                     <div className='flex items-center justify-center flex-col h-full'>
                         <h2 className='-text--theme-text-primary -text--theme-sm md:-text--theme-lg -font--theme-Extrabold capitalize mb10'>What Students Think and Say About Job Ready</h2>
                         <p className='-text--theme-text-primary'>Groove’s intuitive shared inbox makesteam members together
                         organize, prioritize and.In this episode.</p>
                     </div>
                 </div>
-                <div className="col-span-12 md:col-span-7">
+                <div className="col-span-12 lg:col-span-7">
                     <Slider {...settings}>
                         {TestimonialMaping.map((val, index)=>(
                             <div key={index}>
