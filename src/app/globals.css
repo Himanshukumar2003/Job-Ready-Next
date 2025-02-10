@@ -184,3 +184,7 @@ img {
   width: auto;
   height: auto;
 }
+
+.container{
+  overflow: hidden !important;
+}
