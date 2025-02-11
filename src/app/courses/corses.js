@@ -55,7 +55,7 @@ function OurCourses() {
                 Alias, enim quas.
               </p>
             </div>
-            <div className="col-span-12 lg:col-span-4s  flex flex-col   items-start">
+            <div className="col-span-12 lg:col-span-4  flex flex-col   items-start">
             <h2 className="text-center text-xl font-bold mb-4">Select Corse by Category </h2>
 
               <select
