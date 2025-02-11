@@ -45,8 +45,8 @@ function OurCourses() {
 
       <div className="py-10">
         <div className="container">
-          <div className="grid grid-cols-12">
-            <div className="col-span-10 md:col-span-8">
+          <div className="grid grid-cols-12 gap-4">
+            <div className="col-span-12 lg:col-span-8">
               <h2 className="lefttitle">Recommended Courses</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
@@ -55,8 +55,9 @@ function OurCourses() {
                 Alias, enim quas.
               </p>
             </div>
-            <div className="md:col-span-2"></div>
-            <div className="col-span-2">
+            <div className="col-span-12 lg:col-span-4s  flex flex-col   items-start">
+            <h2 className="text-center text-xl font-bold mb-4">Select Corse by Category </h2>
+
               <select
                 value={selectedCategory}
                 onChange={handleCategoryChange}
