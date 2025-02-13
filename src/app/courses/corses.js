@@ -116,7 +116,7 @@ function OurCourses() {
                       </div>
                       <div className="flex items-center gap-x-2 mb10">
                         <span className="-font--theme-Extrabold">
-                          {val.price}
+                        £{val.price}
                         </span>
                       </div>
                       {/* Link to Course Details page */}

@@ -188,3 +188,17 @@ img {
 section{
   overflow: hidden ;
 } 
+
+.price {
+  font-size: 50px; /* Price ka main size */
+  font-weight: bold;
+}
+
+.price-symbol {
+  font-size: 28px; /* Pound symbol chhota */
+  vertical-align: top;
+}
+
+.price-small {
+  font-size: 28px; /* Decimal ke baad ka size chhota */
+}

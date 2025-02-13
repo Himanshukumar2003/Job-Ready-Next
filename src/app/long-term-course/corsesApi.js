@@ -118,7 +118,6 @@ export const LongTermsJson = [
             {
                 id: 1,
                 year: "Year 1 Modules",
-                sulg:"Year-Modules",
                 modules: [
                     "Empowerment in Social Care",
                     "Interprofessional Working",

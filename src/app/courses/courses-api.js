@@ -146,7 +146,7 @@ const courses = [
     "title": "Age Verification Awareness Course",
     "slug":"age-verification-awareness-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": ageVerificationImg,
     "description": "This Age Verification Awareness Course equips participants with the knowledge and skills to effectively and responsibly verify the age of individuals in situations where age restrictions apply.",
     "targetAudience": {
@@ -235,7 +235,7 @@ const courses = [
     "title": "Allergen Awareness Course",
     "slug":"allergen-awareness-course",
     "category": "Care",
-    "price": "£49.99",
+    "price": "49.99",
     "img": allergenImg,
     "description": "This Allergen Awareness Course provides essential knowledge and skills to understand and manage food allergens in a food service environment. It aims to prevent allergic reactions by ensuring safe food handling practices and accurate allergen information for customers.",
     "targetAudience": {
@@ -326,7 +326,7 @@ const courses = [
     "title": "Asbestos Awareness Course",
     "slug":"asbestos-awareness-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": asbestosImg,
     "description": "This Asbestos Awareness Course provides essential knowledge and skills to understand the hazards associated with asbestos exposure and how to minimize the risks. It equips participants with the awareness necessary to work safely in environments where asbestos may be present.",
     "targetAudience": {
@@ -414,7 +414,7 @@ const courses = [
     "title": "Autistic Spectrum Condition (ASC) Awareness Course",
     "slug":"autistic-spectrum-condition-asc-awareness-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFour,
     "description": "This Autistic Spectrum Condition (ASC) Awareness Course provides an understanding of autism, a neurodevelopmental condition that affects communication, social interaction, and behavior. It aims to raise awareness of autism, challenge stereotypes, and promote an inclusive environment for autistic individuals.",
     "targetAudience": {
@@ -489,7 +489,7 @@ const courses = [
     "title": "autism-spectrum-disorder-asd-awareness-course",
     "slug":"",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFive,
     "description": "This Autism Spectrum Disorder (ASD) Awareness Course provides an understanding of autism, a complex developmental condition that affects communication, social interaction, and behavior. It aims to raise awareness of autism, challenge stereotypes, and promote an inclusive environment for autistic individuals.",
     "targetAudience": {
@@ -566,7 +566,7 @@ const courses = [
     "title": "Autistic Spectrum Disorder Level 3 Course",
     "slug":"autistic-spectrum-disorder-level-3-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSix,
     "description": "This Autistic Spectrum Disorder (ASD) Level 3 course provides advanced knowledge and skills for professionals working with individuals with autism spectrum disorder, specifically focusing on individuals with high support needs. It covers complex presentations of ASD, challenging behaviors, and best practices for providing individualized support and interventions.",
     "targetAudience": {
@@ -645,7 +645,7 @@ const courses = [
     "title": "Award for Licensed Premises Staff Course",
     "slug":"award-for-licensed-premises-staff-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeven,
     "description": "This Award for Licensed Premises Staff Course is designed to provide essential training for individuals working in licensed premises such as pubs, bars, clubs, and restaurants. It covers key areas of alcohol licensing law, responsible alcohol service, and customer safety.",
     "targetAudience": {
@@ -744,7 +744,7 @@ const courses = [
     "title": "Bed Rails and Risk Management Awareness Course",
     "slug":"bed-rails-and-risk-management-awareness-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEight,  // Replace with the correct image
     "description": "This Bed Rails and Risk Management Awareness course provides an in-depth understanding of the use of bed rails in healthcare settings, focusing on safety considerations, risk assessment, and best practices for their implementation. It explores the potential benefits and risks associated with bed rail use and emphasizes person-centered care and the importance of minimizing restraint.",
     "targetAudience": {
@@ -822,7 +822,7 @@ const courses = [
     "slug": "bereavement-awareness-course",
 
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNine,  // Replace with the correct image
     "description": "This Bereavement Awareness Course provides an understanding of the grieving process and equips participants with the knowledge and skills to offer compassionate support to individuals experiencing grief and loss.",
     "targetAudience": {
@@ -891,7 +891,7 @@ const courses = [
     "slug": "borderline-personality-disorder-course",
 
     "category": "Care",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTen,  // Replace with the correct image
     "description": "This Borderline Personality Disorder course provides an in-depth understanding of borderline personality disorder (BPD) and the essential skills required to effectively support individuals living with the condition. It covers key aspects of BPD, including diagnosis, symptoms, treatment options, and best practices for providing compassionate and effective care.",
     "targetAudience": {
@@ -1001,7 +1001,7 @@ const courses = [
     "slug": "bribery-act-awareness-course",
 
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEleven,  // Replace with the correct image
     "description": "This Bribery Act Awareness Course provides an understanding of the UK Bribery Act 2010 and equips participants with the knowledge and skills to recognize and prevent bribery within their organization.",
     "targetAudience": {
@@ -1101,7 +1101,7 @@ const courses = [
     "title": "Bullying and Harassment Awareness Course",
     "slug": "bullying-and-harassment-awareness-course",
     "category": "Generic",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwelve,  // Replace with the correct image
     "description": "This Bullying and Harassment Awareness Course provides an understanding of bullying and harassment in the workplace, its impact, and the legal and ethical obligations of employers. It equips participants with the knowledge and skills to recognize, prevent, and respond to incidents of bullying and harassment effectively.",
     "targetAudience": {
@@ -1198,7 +1198,7 @@ const courses = [
     "title": "Care Certificate Course",
     "slug": "Care-certificate-course",
     "category": "Care",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirteen,  // Replace with the correct image
     "description": "The Care Certificate is a set of 15 standards that define the knowledge, skills, and behaviors expected of all new health and social care workers in England.",
     "targetAudience": {
@@ -1274,7 +1274,7 @@ const courses = [
     "title": "Care Planning Awareness – Wales Course",
     "slug": "care-planning-awareness–wales-course",
     "category": "Care",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFourteen,  // Replace with the correct image
     "description": "This Care Planning Awareness – Wales Course provides an understanding of the principles and practices of person-centred care planning within the Welsh context.",
     "targetAudience": {
@@ -1350,7 +1350,7 @@ const courses = [
     "title": "Care Planning Course",
     "slug": "care-planning-course",
     "category": "Care",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFifteen,  // Replace with the correct image
     "description": "This Care Planning Course equips healthcare professionals and care workers with the knowledge and skills necessary to develop, implement, and review effective care plans for individuals receiving care.",
     "targetAudience": {
@@ -1449,7 +1449,7 @@ const courses = [
     "title": "Catheterisation Awareness Course",
     "slug": "catheterisation-awareness-course",
     "category": "Care",
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixteen,  // Replace with the correct image
     "description": "This Catheterisation Awareness Course provides an understanding of urinary catheters, their use, and the importance of proper catheter care. It is designed to equip participants with the knowledge and awareness necessary to support individuals who require catheterization.",
     "targetAudience": {
@@ -1536,7 +1536,7 @@ const courses = [
     "title": "Child Sexual Exploitation Awareness Course",
     "slug": "child-sexual-exploitation-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventeen,  // Replace with the correct image
     "description": "This Child Sexual Exploitation (CSE) Awareness Course provides an understanding of CSE, a serious form of child abuse that involves the sexual exploitation of children for the sexual gratification of others. It equips participants with the knowledge and skills to recognize potential signs of CSE, respond appropriately, and help protect children from this form of abuse.",
     "targetAudience": {
@@ -1628,7 +1628,7 @@ const courses = [
     "title": "Communication and Record Keeping Course",
     "slug": "communication-and-record-keeping-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEighteen,  // Replace with the correct image
     "description": "This Communication and Record Keeping Course provides essential skills in effective communication and accurate record-keeping, crucial for professional success in any field.",
     "targetAudience": {
@@ -1719,7 +1719,7 @@ const courses = [
   //   "title": "Complaints Handling Awareness Course",
   //   "slug": "complaints-handling-awareness-course",
   //   "category": ["Generic"],
-  //   "price": "£49.99",
+  //   "price": "49.99",
   //   "img": corseNineteen,  // Replace with the correct image
   //   "description": "It’s important your business knows how to handle complaints in a professional manner. This Complaint Handling training teaches your staff how to handle complaints efficiently and successfully. This CPD accredited course is perfect for anyone who deals with customer service daily and handles complaints.",
 
@@ -1756,7 +1756,7 @@ const courses = [
     "title": "Concussion Awareness Course",
     "slug": "concussion-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwenty,  // Replace with the correct image
     "description": "This Concussion Awareness Course provides an understanding of concussions, their causes, and the importance of proper management. It equips participants with the knowledge and skills to recognize, respond to, and prevent concussions in various settings.",
     "targetAudience": {
@@ -1855,7 +1855,7 @@ const courses = [
     "title": "Conflict Resolution Course",
     "slug": "conflict-resolution-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyOne,  // Replace with the correct image
     "description": "This Conflict Resolution Course equips participants with the knowledge and skills to effectively manage and resolve conflicts in various personal and professional settings. It explores the nature of conflict, communication strategies, and practical techniques for reaching mutually agreeable solutions.",
     "targetAudience": {
@@ -1953,7 +1953,7 @@ const courses = [
     "title": "Constipation Basic Awareness Course",
     "slug": "constipation-basic-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyTwo,  // Replace with the correct image
     "description": "This Constipation Basic Awareness course provides an understanding of constipation, its causes, and effective management strategies. It covers key aspects of constipation, including common symptoms, risk factors, dietary and lifestyle modifications, and when to seek professional advice.",
     "targetAudience": {
@@ -2054,7 +2054,7 @@ const courses = [
     "title": "Consumer Rights Act Awareness Course",
     "slug": "consumer-rights-act-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyThree,  // Replace with the correct image
     "description": "This Consumer Rights Act Awareness Course provides an understanding of the key rights and protections afforded to consumers under the Consumer Rights Act 2015. It equips participants with knowledge of their rights as consumers and empowers them to make informed choices and resolve consumer issues effectively.",
     "targetAudience": {
@@ -2146,7 +2146,7 @@ const courses = [
     "title": "Continence Promotion Course",
     "slug": "continence-promotion-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyFour,  // Replace with the correct image
     "description": "This Continence Promotion course provides an in-depth understanding of urinary and bowel incontinence and explores strategies for promoting continence and improving quality of life for individuals experiencing these issues. It covers key aspects of bladder and bowel function, risk factors, assessment, and management strategies.",
     "targetAudience": {
@@ -2226,7 +2226,7 @@ const courses = [
     "title": "Coronavirus Awareness and Infection Control Course",
     "slug": "coronavirus-awareness-infection-control-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyFive,  // Replace with the correct image
     "description": "This Coronavirus Awareness and Infection Control Course provides essential knowledge and skills to understand and mitigate the risks associated with COVID-19 and other infectious diseases. It equips participants with practical strategies for preventing the spread of infection and protecting themselves and others.",
     "targetAudience": {
@@ -2294,7 +2294,7 @@ const courses = [
   //   "title": "Coronavirus in Health and Social Care Course",
   //    "slug": "coronavirus-in-health-and-social-care-course",
   //   "category": ["Care"],
-  //   "price": "£49.99",
+  //   "price": "49.99",
   //   "img": corseTwentySix,  // Replace with the correct image
   //   "description": "It’s important your business knows how to handle complaints in a professional manner. This Complaint Handling training teaches your staff how to handle complaints efficiently and successfully. This CPD accredited course is perfect for anyone who deals with customer service daily and handles complaints.",
 
@@ -2329,7 +2329,7 @@ const courses = [
     "title": "COSHH Awareness Course",
     "slug": "coshh-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentySeven, // Replace with the correct image
     "description": "This Control of Substances Hazardous to Health (COSHH) Awareness online training course raises awareness of the dangers associated with hazardous substances and the practical steps that can be taken to eliminate or reduce the risks that they present.",
     "targetAudience": {
@@ -2415,7 +2415,7 @@ const courses = [
     "title": "Countering Fraud, Bribery & Corruption Course",
     "slug": "countering-fraud-bribery-corruption-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyEight, // Replace with the correct image
     "description": "This Countering Fraud, Bribery & Corruption Course provides an understanding of these serious crimes and equips participants with the knowledge and skills to recognize and respond to potential risks within their organization.",
     "targetAudience": {
@@ -2482,7 +2482,7 @@ const courses = [
     "title": "County Lines and Knife Crime Course",
     "slug": "county-lines-and-knife-crime-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseTwentyNine, // Replace with the correct image
     "description": "This County Lines and Knife Crime Awareness Course provides an understanding of these serious societal issues, their impact, and the role individuals can play in prevention and support.",
     "targetAudience": {
@@ -2579,7 +2579,7 @@ const courses = [
     "title": "Criminal Finance Act Awareness Course",
     "slug": "criminal-finance-act-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirty, // Replace with the correct image
     "description": "This Criminal Finances Act Awareness Course provides an understanding of the key provisions of the Criminal Finances Act 2017, which aims to tackle economic crime, including tax evasion, bribery, and money laundering. It equips participants with the knowledge and skills to recognize potential risks and comply with their obligations under the Act.",
     "targetAudience": {
@@ -2680,7 +2680,7 @@ const courses = [
     "title": "Customer Service Awareness Course",
     "slug": "customer-service-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyOne, // Replace with the correct image
     "description": "This Customer Service Awareness Course equips participants with the essential knowledge and skills to provide excellent customer service. It focuses on building strong customer relationships, enhancing communication, and ensuring customer satisfaction.",
     "targetAudience": {
@@ -2754,7 +2754,7 @@ const courses = [
     "title": "Cyber Security Awareness Course",
     "slug": "cyber-security-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyTwo,
     "description": "This Cyber Security Awareness Course provides an understanding of common cyber threats and how to protect yourself and your organization from cyberattacks. It equips participants with the knowledge and skills to practice good cyber hygiene and contribute to a more secure online environment.",
     "targetAudience": {
@@ -2852,7 +2852,7 @@ const courses = [
     "title": "Dementia Care – Wales Course",
     "slug": "dementia-care-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyThree,
     "description": "This Dementia Care – Wales Course provides an in-depth understanding of dementia and the essential skills required to provide high-quality care and support for individuals living with the condition within the Welsh context. It covers key aspects of dementia care, including communication, behavior management, and person-centered approaches, with a focus on relevant Welsh legislation, guidance, and best practices.",
     "targetAudience": {
@@ -2933,7 +2933,7 @@ const courses = [
     "title": "Dementia Care Course",
     "slug": "dementia-care-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyFour,
     "description": "This Dementia Care course provides an in-depth understanding of dementia and the essential skills required to provide high-quality care and support for individuals living with the condition. It covers key aspects of dementia care, including communication, behavior management, and person-centered approaches.",
     "targetAudience": {
@@ -3037,7 +3037,7 @@ const courses = [
     "title": "Diabetes Awareness Course",
     "slug": "diabetes-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyFive,
     "description": "This Diabetes Awareness Course provides a comprehensive overview of diabetes, a chronic condition that affects how the body regulates blood sugar (glucose). It explores the different types of diabetes, their causes, symptoms, and management strategies.",
     "targetAudience": {
@@ -3128,7 +3128,7 @@ const courses = [
     "title": "Diet and Nutrition Course",
     "slug": "diet-and-nutrition-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtySix,
     "description": "This Diet and Nutrition course provides an understanding of the principles of healthy eating and the role of nutrition in maintaining overall health and well-being. It explores the essential nutrients, their functions, and how to make informed food choices.",
     "targetAudience": {
@@ -3224,7 +3224,7 @@ const courses = [
     "title": "Dignity, Privacy and Respect",
     "slug": "dignity-privacy-and-respect",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtySeven,
     "description": "This Dignity, Privacy, and Respect Course explores the fundamental principles of providing care and support that upholds the dignity, privacy, and respect of all individuals. It emphasizes the importance of treating everyone with kindness, compassion, and consideration, regardless of their age, background, or abilities.",
     "targetAudience": {
@@ -3321,7 +3321,7 @@ const courses = [
     "title": "Dignity, Privacy and Respect – Wales Course",
     "slug": "dignity-privacy-respect-wales-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyEight,
     "description": "This Dignity, Privacy and Respect – Wales course provides an in-depth understanding of the importance of upholding dignity, privacy, and respect in all aspects of care and support within the Welsh context. It explores relevant legislation, best practice guidelines, and the ethical principles that underpin high-quality care.",
     "targetAudience": {
@@ -3392,7 +3392,7 @@ const courses = [
     "title": "Disability Awareness – Wales Course",
     "slug": "disability-awareness-wales-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseThirtyNine,
     "description": "This Disability Awareness – Wales Course provides an understanding of disability within the Welsh context, focusing on relevant legislation, best practices, and the principles of inclusive service delivery. It aims to raise awareness of disability issues, challenge stereotypes, and promote a more inclusive society for people with disabilities in Wales.",
     "targetAudience": {
@@ -3457,7 +3457,7 @@ const courses = [
     "title": "Disability Awareness Course",
     "slug": "disability-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseForty,
     "description": "This Disability Awareness Course provides an understanding of disability, challenges faced by people with disabilities, and the importance of inclusion and accessibility. It aims to raise awareness, challenge stereotypes, and promote a more inclusive and equitable society.",
     "targetAudience": {
@@ -3549,7 +3549,7 @@ const courses = [
     "title": "Disclosure and Barring Service Awareness Course",
     "slug": "disclosure-and-barring-service-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyOne,
     "description": "This Disclosure and Barring Service (DBS) Awareness Course provides an understanding of the DBS system and its role in safeguarding vulnerable groups. It equips participants with knowledge of when and how to apply for a DBS check, and how to interpret and use DBS information responsibly.",
     "targetAudience": {
@@ -3617,7 +3617,7 @@ const courses = [
     "title": "Display Screen Equipment Awareness Course",
     "slug": "display-screen-equipment-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyTwo,
     "description": "This Display Screen Equipment (DSE) Awareness course provides essential information and practical guidance on how to work safely and comfortably with computers and other DSE. It aims to prevent musculoskeletal disorders (MSDs) and other health issues associated with prolonged DSE use.",
     "targetAudience": {
@@ -3710,7 +3710,7 @@ const courses = [
     "title": "Drugs and Alcohol Awareness Course",
     "slug": "drugs-and-alcohol-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyThree,
     "description": "This Drugs and Alcohol Awareness Course provides an understanding of the effects of drug and alcohol misuse on individuals, families, and society. It aims to raise awareness of the risks associated with substance use and promote healthy lifestyles.",
     "targetAudience": {
@@ -3798,7 +3798,7 @@ const courses = [
     "title": "Duty of Candour Course",
     "slug": "duty-of-candour-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyFour,
     "description": "This Duty of Candour Course explores the legal and ethical obligations of healthcare professionals to be open and honest with patients and their families when something has gone wrong with their care.",
     "targetAudience": {
@@ -3892,7 +3892,7 @@ const courses = [
     "title": "Duty Of Care – Wales Course",
     "slug": "duty-of-care-wales-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyFive,
     "description": "This Duty of Care – Wales Course explores the legal and ethical obligations individuals and organizations have to ensure the safety and well-being of others within the Welsh context. It provides an understanding of duty of care principles, relevant Welsh legislation, and how to fulfill these obligations effectively.",
     "targetAudience": {
@@ -3967,7 +3967,7 @@ const courses = [
     "title": "Duty Of Care ",
     "slug": "duty-of-care",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortySix,
     "description": "This Duty of Care Awareness Course explores the legal and ethical obligations individuals and organizations have to ensure the safety and well-being of others. It provides an understanding of duty of care principles and how they apply in various contexts.",
     "targetAudience": {
@@ -4061,7 +4061,7 @@ const courses = [
     "title": "Emergency First Aid Awareness Course",
     "slug": "emergency-first-aid-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortySeven,
     "description": "This Emergency First Aid Awareness Course provides essential knowledge and skills to enable individuals to respond effectively in a medical emergency. It covers basic life support techniques and equips participants with the confidence to assist someone in need until professional medical help arrives.",
     "targetAudience": {
@@ -4150,7 +4150,7 @@ const courses = [
     "title": "Epilepsy Awareness Course",
     "slug": "epilepsy-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyEight,
     "description": "This Epilepsy Awareness Course provides an understanding of epilepsy, a neurological condition that causes seizures. It aims to raise awareness of epilepsy, challenge stigma, and equip participants with the knowledge and skills to respond appropriately to someone experiencing a seizure.",
     "targetAudience": {
@@ -4239,7 +4239,7 @@ const courses = [
     "title": "Epilepsy Level 3 Course",
     "slug": "epilepsy-level-3-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFortyNine,
     "description": "This Epilepsy Level 3 course provides advanced knowledge and skills for healthcare professionals working with individuals with epilepsy. It delves into complex seizure types, advanced treatment options, and the management of challenging situations.",
     "targetAudience": {
@@ -4336,7 +4336,7 @@ const courses = [
     "title": "Equality, Diversity and Human Rights Course",
     "slug": "equality-diversity-human-rights-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFifty,
     "description": "This Equality, Diversity, and Human Rights course explores the fundamental principles of equality, diversity, and inclusion. It aims to raise awareness of discrimination and promote a culture of respect and inclusivity in the workplace and beyond.",
     "targetAudience": {
@@ -4436,7 +4436,7 @@ const courses = [
     "title": "Falls Prevention Course",
     "slug": "falls-prevention-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyOne,
     "description": "This Falls Prevention course equips participants with the knowledge and skills to understand and address the risks of falling, particularly among older adults. It explores the causes of falls, identifies risk factors, and outlines practical strategies for preventing falls and minimizing their impact.",
     "targetAudience": {
@@ -4524,7 +4524,7 @@ const courses = [
     "title": "FGM Awareness – Wales Course",
     "slug": "fgm-awareness-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyTwo,
     "description": "This FGM Awareness – Wales Course provides an understanding of Female Genital Mutilation (FGM), a harmful traditional practice that involves the partial or total removal of external female genitalia. It aims to raise awareness of FGM, challenge harmful cultural norms, and equip participants with the knowledge and skills to recognize potential cases of FGM and respond appropriately within the Welsh context.",
     "targetAudience": {
@@ -4625,7 +4625,7 @@ const courses = [
     "title": "FGM Awareness Course",
     "slug": "fgm-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyThree,
     "description": "This FGM Awareness Course provides an understanding of Female Genital Mutilation (FGM), a harmful traditional practice that involves the partial or total removal of external female genitalia. It aims to raise awareness of FGM, challenge harmful cultural norms, and equip participants with the knowledge and skills to recognize potential cases of FGM and respond appropriately.",
     "targetAudience": {
@@ -4722,7 +4722,7 @@ const courses = [
     "title": "Fire Safety CSTF Aligned Course",
     "slug": "fire-safety-cstf-aligned-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyFour,
     "description": "This CSTF-aligned course consists of statutory training on the nature and causes of fire in healthcare facilities, with instruction in fire prevention, signage, equipment, and what to do when a fire starts.",
     "targetAudience": {
@@ -4822,7 +4822,7 @@ const courses = [
     "title": "Food Safety Level 2 Course",
     "slug": "food-safety-level-2-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyFive,
     "description": "This Food Safety Level 2 course is designed to equip individuals with the knowledge and skills necessary to ensure safe food handling practices within a food business. It covers essential topics in food safety, including hygiene, contamination prevention, and legal requirements.",
     "targetAudience": {
@@ -4928,7 +4928,7 @@ const courses = [
     "title": "Food Safety Level 3 Course",
     "slug": "food-safety-level-3-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftySix,
     "description": "This Food Safety Level 3 course is designed for supervisory and management roles within the food industry. It provides in-depth knowledge of food safety management systems, including Hazard Analysis and Critical Control Points (HACCP), and equips participants with the skills to implement and maintain effective food safety practices.",
     "targetAudience": {
@@ -5028,7 +5028,7 @@ const courses = [
     "title": "Forced Marriage Awareness – Wales Course",
     "slug": "forced-marriage-awareness-wales-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftySeven,
     "description": "This Forced Marriage Awareness – Wales Course provides an understanding of forced marriage, a serious human rights violation that affects individuals across all communities in Wales. It equips participants with the knowledge and skills to recognize potential indicators of forced marriage and respond appropriately.",
     "targetAudience": {
@@ -5125,7 +5125,7 @@ const courses = [
     "title": "Forced Marriage Awareness Course",
     "slug": "forced-marriage-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyEight,
     "description": "This Forced Marriage Awareness Course provides an understanding of forced marriage, a serious human rights violation that affects individuals across all communities. It aims to raise awareness of forced marriage, challenge harmful cultural norms, and equip participants with the knowledge and skills to recognize potential indicators of forced marriage and respond appropriately.",
     "targetAudience": {
@@ -5223,7 +5223,7 @@ const courses = [
     "title": "GDPR Awareness Course",
     "slug": "gdpr-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseFiftyNine,
     "description": "This GDPR Awareness course provides essential knowledge about the General Data Protection Regulation (GDPR), a comprehensive legal framework that governs the processing of personal data within the European Union (EU) and the European Economic Area (EEA). It aims to raise awareness of data protection obligations and best practices for handling personal information.",
     "targetAudience": {
@@ -5318,7 +5318,7 @@ const courses = [
     "title": "HACCP Awareness Course",
     "slug": "haccp-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixty,
     "description": "This HACCP Awareness Course provides an introduction to the Hazard Analysis and Critical Control Point (HACCP) system, a preventative approach to food safety. It equips participants with a basic understanding of HACCP principles and their importance in ensuring the safety of food.",
     "targetAudience": {
@@ -5397,7 +5397,7 @@ const courses = [
     "title": "Health and Safety Awareness Course",
     "slug": "health-and-safety-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyOne,
     "description": "This Health and Safety Awareness course provides essential knowledge and skills to help individuals understand and manage workplace health and safety risks. It covers fundamental principles and best practices to create a safer and healthier working environment.",
     "targetAudience": {
@@ -5499,7 +5499,7 @@ const courses = [
     "title": "Infection Prevention and Control Advanced Course",
     "slug": "infection-prevention-and-control-advanced-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyTwo,
     "description": "This Infection Prevention and Control (IPC) Advanced Course provides in-depth knowledge and skills for healthcare professionals who play a critical role in preventing and controlling the spread of infections within healthcare settings. It builds upon foundational IPC knowledge and focuses on advanced principles, best practices, and leadership in infection prevention.",
     "targetAudience": {
@@ -5573,7 +5573,7 @@ const courses = [
     "title": "Infection Prevention and Control Advanced in Care Course",
     "slug": "infection-prevention-and-control-advanced-in-care-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyThree,
     "description": "This Infection Prevention and Control Advanced in Care Course provides healthcare professionals with in-depth knowledge and skills to prevent and control the spread of infections in various healthcare settings. It builds upon basic infection control principles and explores advanced concepts, including outbreak management, antimicrobial stewardship, and specific infection control challenges.",
     "targetAudience": {
@@ -5650,7 +5650,7 @@ const courses = [
     "title": "Infection Prevention and Control Level 2 CSTF aligned Course",
     "slug": "infection-prevention-and-control-level-2-cstf-aligned-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyFour,
     "description": "This Infection Prevention and Control Level 2 course is aligned with the Core Skills Training Framework (CSTF) and provides healthcare professionals with the essential knowledge and skills to prevent the spread of infections within a clinical setting. It covers key principles of infection prevention and control, including hand hygiene, personal protective equipment (PPE), and environmental cleaning.",
     "targetAudience": {
@@ -5728,7 +5728,7 @@ const courses = [
     "title": "Information Governance – Wales Course",
     "slug": "information-governance-wales-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyFive,
     "description": "This Information Governance – Wales Course provides an understanding of the principles and practices of information governance within the Welsh context. It focuses on the legal, ethical, and practical considerations for handling information securely and responsibly, with a particular emphasis on data protection legislation and best practices within Wales.",
     "targetAudience": {
@@ -5798,7 +5798,7 @@ const courses = [
     "title": "Information Governance Awareness: Caldicott Principles Course",
     "slug": "information-governance-awareness-caldicott-principles-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtySix,
     "description": "This Information Governance Awareness: Caldicott Principles Course provides an understanding of the principles for the appropriate use and sharing of confidential patient information within the healthcare setting. It focuses on the Caldicott Principles, a set of guidelines for the ethical use and sharing of patient data.",
     "targetAudience": {
@@ -5873,7 +5873,7 @@ const courses = [
     "title": "Internet Safety Awareness Course",
     "slug": "internet-safety-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtySeven,
     "description": "This Internet Safety Awareness Course provides essential knowledge and skills to navigate the online world safely and securely. It equips participants with the understanding and tools to protect themselves and their information from cyber threats, online risks, and online exploitation.",
     "targetAudience": {
@@ -5964,7 +5964,7 @@ const courses = [
     "title": "Interview Skills Course",
     "slug": "interview-skills-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyEight,
     "description": "This Interview Skills Course equips participants with the knowledge and skills to excel in job interviews and increase their chances of landing their desired role. It covers a range of essential interview techniques, from preparation and research to answering questions effectively and making a strong impression.",
     "targetAudience": {
@@ -6047,7 +6047,7 @@ const courses = [
     "title": "Introduction to Sepsis Course",
     "slug": "introduction-to-sepsis-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSixtyNine,
     "description": "This Introduction to Sepsis Course provides essential knowledge and awareness of sepsis, a life-threatening condition that can arise from any infection. It equips participants with the ability to recognize the early signs and symptoms of sepsis and understand the importance of prompt action.",
     "targetAudience": {
@@ -6116,7 +6116,7 @@ const courses = [
     "title": "Learning Disability Awareness Course",
     "slug": "learning-disability-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventy,
     "description": "This Learning Disability Awareness Course provides an understanding of learning disabilities, their impact on individuals, and how to create an inclusive and supportive environment.",
     "targetAudience": {
@@ -6182,7 +6182,7 @@ const courses = [
     "title": "Legionella Awareness Course",
     "slug": "legionella-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyOne,
     "description": "This Legionella Awareness Course provides essential knowledge and skills to understand and manage the risks associated with Legionella bacteria. It focuses on preventing Legionnaires’ disease, a potentially serious lung infection caused by Legionella bacteria.",
     "targetAudience": {
@@ -6273,7 +6273,7 @@ const courses = [
     "title": "Lone Working Course",
     "slug": "lone-working-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyTwo,
     "description": "This Lone Working Awareness Course provides essential knowledge and skills to identify and manage the risks associated with working alone. It equips lone workers with the confidence and practical strategies to work safely and securely when isolated from colleagues.",
     "targetAudience": {
@@ -6339,7 +6339,7 @@ const courses = [
     "title": "Managing Challenging Behaviour Positive Behaviour Support Course",
     "slug": "managing-challenging-behaviour-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyThree,
     "description": "This Managing Challenging Behaviour Positive Behaviour Support course provides participants with the knowledge and skills to understand and address challenging behaviour effectively. It focuses on a person-centred approach, emphasizing positive reinforcement and proactive strategies to promote positive behaviour and reduce the occurrence of challenging behaviours.",
     "targetAudience": {
@@ -6406,7 +6406,7 @@ const courses = [
     "title": "Managing People Awareness Course",
     "slug": "managing-people-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyFour,
     "description": "This Managing People Awareness Course provides foundational knowledge and skills for effective people management in the workplace. It equips participants with an understanding of key management principles and best practices for leading and motivating teams.",
     "targetAudience": {
@@ -6483,7 +6483,7 @@ const courses = [
     "title": "Manual Handling of Inanimate Objects Awareness Course",
     "slug": "manual-handling-inanimate-objects-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyFive,
     "description": "This Manual Handling of Inanimate Objects Awareness Course provides essential knowledge and skills to safely and effectively handle and move objects in the workplace. It aims to prevent musculoskeletal disorders (MSDs) and other injuries caused by improper lifting, carrying, and moving of objects.",
     "targetAudience": {
@@ -6548,7 +6548,7 @@ const courses = [
     "title": "Medication Advanced – Wales Course",
     "slug": "medication-advanced-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventySix,
     "description": "This Medication Administration Advanced – Wales Course is specifically designed to meet the requirements for administering medications in healthcare settings within Wales. It builds upon foundational medication knowledge and focuses on the safe and effective administration of medications in accordance with Welsh legislation and best practices.",
     "targetAudience": {
@@ -6622,7 +6622,7 @@ const courses = [
     "title": "Medication Advanced Including Administration Course",
     "slug": "medication-advanced-including-administration-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventySeven,
     "description": "This Medication Administration Course provides in-depth knowledge and practical skills for healthcare professionals involved in the administration of medications. It covers a range of topics, including medication calculations, safe administration techniques, and legal and ethical considerations.",
     "targetAudience": {
@@ -6702,7 +6702,7 @@ const courses = [
     "title": "Medication Awareness Course",
     "slug": "medication-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyEight,
     "description": "This Medication Awareness Course provides an overview of medication safety and management principles. It is designed to enhance participants’ understanding of medications, their administration, and the importance of adhering to safe practices.",
     "targetAudience": {
@@ -6777,7 +6777,7 @@ const courses = [
     "title": "Mental Capacity Act and Deprivation of Liberties Awareness Course",
     "slug": "mental-capacity-act-and-deprivation-of-liberties-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseSeventyNine,
     "description": "This Mental Capacity Act and Deprivation of Liberties Awareness Course provides an understanding of the legal framework surrounding the care and support of individuals who may lack the mental capacity to make their own decisions. It focuses on the principles of the Mental Capacity Act 2005 (MCA) and the Deprivation of Liberty Safeguards (DoLS) process.",
     "targetAudience": {
@@ -6846,7 +6846,7 @@ const courses = [
     "title": "Mental Health Awareness – Wales Course",
     "slug": "mental-health-awareness-wales-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEighty,
     "description": "This Mental Health Awareness – Wales Course provides an understanding of mental health within the Welsh context, focusing on relevant legislation, guidance, and best practices. It aims to raise awareness of mental health issues, reduce stigma, and promote positive mental well-being within the Welsh population.",
     "targetAudience": {
@@ -6920,7 +6920,7 @@ const courses = [
     "title": "Mental Health Awareness Course",
     "slug": "mental-health-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyOne,
     "description": "This Mental Health Awareness Course provides an understanding of mental health, common mental health conditions, and strategies for promoting positive mental well-being. It aims to reduce stigma surrounding mental health and equip participants with the knowledge and skills to support themselves and others.",
     "targetAudience": {
@@ -7019,7 +7019,7 @@ const courses = [
     "title": "Modern Day Slavery Awareness Course",
     "slug": "modern-day-slavery-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyTwo,
     "description": "This Modern Day Slavery Awareness course provides an in-depth understanding of modern-day slavery, including its various forms, causes, and the global impact. It equips participants with the knowledge and skills to recognize potential signs of exploitation and take appropriate action.",
     "targetAudience": {
@@ -7119,7 +7119,7 @@ const courses = [
     "title": "Money Laundering Awareness Course",
     "slug": "money-laundering-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyThree,
     "description": "This Money Laundering Awareness Course provides an understanding of money laundering, a serious financial crime that involves concealing the origin of illegally obtained funds. It equips participants with the knowledge and skills to recognize potential money laundering activities and fulfill their responsibilities to report suspicious activity.",
     "targetAudience": {
@@ -7220,7 +7220,7 @@ const courses = [
     "title": "Moving and Handling of People Awareness Course",
     "slug": "moving-and-handling-of-people-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyFour,
     "description": "This Moving and Handling of People Awareness Course provides essential knowledge and skills to safely and effectively move and handle individuals in care settings. It emphasizes the importance of risk assessment, proper body mechanics, and the use of appropriate equipment to prevent injuries to both the individual being moved and the care provider.",
     "targetAudience": {
@@ -7319,7 +7319,7 @@ const courses = [
     "title": "Moving and Handling of People Level 2 Course",
     "slug": "moving-and-handling-of-people-level-2-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyFive,
     "description": "This Moving and Handling of People Level 2 course builds upon foundational knowledge and provides advanced skills and techniques for safe and effective moving and handling of individuals. It covers a range of complex situations and emphasizes risk assessment, individualized care plans, and the use of specialist equipment.",
     "targetAudience": {
@@ -7398,7 +7398,7 @@ const courses = [
     "title": "Multiple Sclerosis (MS) Course",
     "slug": "multiple-sclerosis-ms-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightySix,
     "description": "This Multiple Sclerosis (MS) course provides an in-depth understanding of multiple sclerosis, a chronic neurological condition that affects the central nervous system. It covers key aspects of MS, including its pathophysiology, diagnosis, management strategies, and the impact on individuals and their families.",
     "targetAudience": {
@@ -7469,7 +7469,7 @@ const courses = [
     "title": "Oral Health Course",
     "slug": "oral-health-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightySeven,
     "description": "This Oral Health Awareness Course provides essential knowledge about oral health and its importance for overall well-being. It equips participants with the understanding and skills to maintain good oral hygiene practices and make informed decisions about their oral health care.",
     "targetAudience": {
@@ -7565,7 +7565,7 @@ const courses = [
     "title": "Paediatric First Aid Course",
     "slug": "paediatric-first-aid-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyEight,
     "description": "This Paediatric First Aid course provides essential knowledge and skills to respond effectively to medical emergencies in children. It covers a range of first aid techniques specifically tailored to the unique needs of infants and children.",
     "targetAudience": {
@@ -7653,7 +7653,7 @@ const courses = [
     "title": "Palliative and End-of-Life Care Course",
     "slug": "palliative-and-end-of-life-care-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseEightyNine,
     "description": "This Palliative and End-of-Life Care Course provides an understanding of the principles and practices of providing high-quality care for individuals with life-limiting illnesses. It focuses on improving the quality of life for patients and their families by addressing their physical, psychological, social, and spiritual needs.",
     "targetAudience": {
@@ -7727,7 +7727,7 @@ const courses = [
     "title": "Parkinson’s Disease Awareness Course",
     "slug": "parkinsons-disease-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinety,
     "description": "This Parkinson’s Disease Awareness course provides an in-depth understanding of Parkinson’s Disease (PD), a progressive neurological disorder that affects movement. It covers key aspects of PD, including its causes, symptoms, diagnosis, management strategies, and the impact on individuals and their families.",
     "targetAudience": {
@@ -7821,7 +7821,7 @@ const courses = [
     "title": "Passport as Proof Course",
     "slug": "passport-as-proof-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyOne,
     "description": "This Passport as Proof Course provides an understanding of the use of passports as proof of identity and eligibility in various contexts. It explores the legal and practical considerations surrounding the use of passports as evidence, including data protection and security concerns.",
     "targetAudience": {
@@ -7916,7 +7916,7 @@ const courses = [
     "title": "Person-Centred Care Course",
     "slug": "person-centred-care-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyTwo,
     "description": "This Person-Centred Care Course explores the principles and practices of providing care that is centered on the unique needs, preferences, and values of the individual. It emphasizes the importance of active listening, respectful communication, and empowering individuals to make informed choices about their own care.",
     "targetAudience": {
@@ -8008,7 +8008,7 @@ const courses = [
     "title": "Personal Care – Wales Course",
     "slug": "personal-care-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyThree,
     "description": "This Personal Care – Wales Course provides an understanding of the principles and practices of providing personal care to individuals in a safe, respectful, and dignified manner within the Welsh context. It covers key aspects of personal care, including hygiene, nutrition, and mobility, with a focus on relevant Welsh legislation, guidance, and best practices.",
     "targetAudience": {
@@ -8091,7 +8091,7 @@ const courses = [
     "title": "Personal Care Awareness Course",
     "slug": "personal-care-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyFour,
     "description": "This Personal Care Awareness Course provides an understanding of the principles and practices of providing safe, respectful, and dignified personal care. It equips participants with the knowledge and skills to support individuals with personal care needs effectively.",
     "targetAudience": {
@@ -8175,7 +8175,7 @@ const courses = [
     "title": "Prader-Willi Syndrome Awareness Course",
     "slug": "prader-willi-syndrome-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyFive,
     "description": "This Prader-Willi Syndrome Awareness course provides an in-depth understanding of Prader-Willi Syndrome (PWS), a rare genetic condition. It covers key aspects of PWS, including its causes, symptoms, and the essential skills required to provide appropriate support and care for individuals with PWS.",
     "targetAudience": {
@@ -8274,7 +8274,7 @@ const courses = [
     "title": "Pressure Sore Awareness Course",
     "slug": "pressure-sore-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetySix,
     "description": "This Pressure Sore Awareness Course provides essential knowledge and skills to prevent and manage pressure ulcers (also known as bedsores or pressure injuries). It equips participants with the understanding and practical skills to identify individuals at risk, implement preventative measures, and manage existing pressure ulcers.",
     "targetAudience": {
@@ -8364,7 +8364,7 @@ const courses = [
     "title": "Preventing Radicalisation Course",
     "slug": "preventing-radicalisation-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetySeven,
     "description": "This Preventing Radicalisation Awareness Course provides an understanding of radicalisation and the factors that can contribute to it. It aims to equip participants with the knowledge and skills to recognise potential indicators of radicalisation and respond appropriately.",
     "targetAudience": {
@@ -8453,7 +8453,7 @@ const courses = [
     "title": "Professional Boundaries Course",
     "slug": "professional-boundaries-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyEight,
     "description": "This Professional Boundaries Course explores the importance of maintaining clear and appropriate boundaries in professional relationships. It aims to equip participants with the knowledge and skills to recognize and address potential boundary violations, ensuring ethical and professional conduct in all interactions.",
     "targetAudience": {
@@ -8544,7 +8544,7 @@ const courses = [
     "title": "RIDDOR Awareness Course",
     "slug": "riddor-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseNinetyNine,
     "description": "This RIDDOR Awareness Course provides an understanding of the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR), a set of UK health and safety regulations that require employers to report certain types of work-related accidents, diseases, and dangerous occurrences to the relevant authorities.",
     "targetAudience": {
@@ -8634,7 +8634,7 @@ const courses = [
     "title": "Risk Assessment Awareness Course",
     "slug": "risk-assessment-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundred,
     "description": "This Risk Assessment Awareness Course provides an understanding of the principles of risk assessment and equips participants with the knowledge and skills to identify, evaluate, and control risks in their workplace.",
     "targetAudience": {
@@ -8734,7 +8734,7 @@ const courses = [
     "title": "Safeguarding in Adults and Children Level 1 – Wales Course",
     "slug": "safeguarding-in-adults-and-children-level-1-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredOne,
     "description": "This Safeguarding of Adults and Children Level 1 – Wales Course provides an essential foundation in safeguarding both children and vulnerable adults within the Welsh context. It equips participants with the knowledge and skills to recognize potential signs of abuse and neglect and understand their role in keeping individuals safe.",
     "targetAudience": {
@@ -8828,7 +8828,7 @@ const courses = [
     "title": "Safeguarding in Adults and Children Level 2 – Wales Course",
     "slug": "safeguarding-in-adults-and-children-level-2-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwo,
     "description": "This Safeguarding of Adults Level 2 – CSTF Aligned Course builds upon foundational safeguarding knowledge and equips participants with advanced skills in recognizing, responding to, and preventing abuse and neglect in vulnerable adults. The course is specifically aligned with the Care Certificate Standards Framework (CCSF), ensuring that learning outcomes meet the highest standards for adult social care professionals.",
     "targetAudience": {
@@ -8925,7 +8925,7 @@ const courses = [
     "title": "Safeguarding of Adults Level 1 CSTF Aligned Course",
     "slug": "safeguarding-of-adults-level-1-cstf-aligned-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredThree,
     "description": "This Safeguarding of Adults Level 1 – CSTF Aligned Course provides foundational knowledge and skills in safeguarding vulnerable adults, specifically aligned with the Care Certificate Standards Framework (CCSF). It equips all staff working in health and social care settings with the understanding and confidence to recognize and respond appropriately to concerns about abuse and neglect.",
     "targetAudience": {
@@ -8999,7 +8999,7 @@ const courses = [
     "title": "Safeguarding of Adults Level 2 CSTF Aligned Course",
     "slug": "safeguarding-of-adults-level-2-cstf-aligned-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredFour,
     "description": "This Safeguarding of Adults Level 2 – CSTF Aligned Course provides advanced knowledge and skills in safeguarding vulnerable adults, specifically aligned with the Care Certificate Standards Framework (CCSF). It equips participants with the in-depth understanding and critical thinking skills required to lead and manage safeguarding effectively within a care setting.",
     "targetAudience": {
@@ -9096,7 +9096,7 @@ const courses = [
     "title": "Safeguarding of Adults Level 3 CSTF Aligned Course",
     "slug": "safeguarding-of-adults-level-3-cstf-aligned-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredFive,
     "description": "This Safeguarding Adults Level 3 – CSTF Aligned Course is designed for senior professionals and leaders within health and social care settings. It provides advanced knowledge and skills in safeguarding vulnerable adults, focusing on strategic leadership, policy development, and system-wide improvements, all aligned with the Care Certificate Standards Framework (CCSF).",
     "targetAudience": {
@@ -9192,7 +9192,7 @@ const courses = [
     "title": "Safeguarding of Children Advanced Course",
     "slug": "safeguarding-of-children-advanced-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredSix,
     "description": "This Safeguarding of Children Advanced Course builds upon foundational child protection training, providing in-depth knowledge and skills for professionals with significant responsibilities for safeguarding children. It focuses on critical analysis, decision-making, and best practice in complex safeguarding scenarios.",
     "targetAudience": {
@@ -9267,7 +9267,7 @@ const courses = [
     "title": "Safeguarding of Children Awareness Course",
     "slug": "safeguarding-of-children-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredSeven,
     "description": "This Safeguarding of Children Awareness course provides essential knowledge and skills to recognize and respond appropriately to concerns about child abuse and neglect. It equips participants with the confidence to act responsibly and help protect children from harm.",
     "targetAudience": {
@@ -9363,7 +9363,7 @@ const courses = [
     "title": "Safeguarding of Children in Care Level 1 – Wales Course",
     "slug": "safeguarding-of-children-in-care-level-1-wales-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredEight,
     "description": "This Safeguarding of Children in Care Level 1 – Wales Course provides essential knowledge and skills to recognize and respond appropriately to concerns about child abuse and neglect within the specific context of Wales. It equips participants with the confidence to act responsibly and help protect children in care from harm.",
     "targetAudience": {
@@ -9437,7 +9437,7 @@ const courses = [
     "title": "Safeguarding of Children in Care Level 1 Course",
     "slug": "safeguarding-of-children-in-care-level-1-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredNine,
     "description": "This Safeguarding of Children in Care Level 1 Course provides essential knowledge and skills to recognize and respond appropriately to concerns about child abuse and neglect within care settings. It equips participants with the confidence to act responsibly and help protect children in their care.",
     "targetAudience": {
@@ -9503,7 +9503,7 @@ const courses = [
     "title": "Safeguarding of Children in Care Level 2 Course",
     "slug": "safeguarding-of-children-in-care-level-2-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTen,
     "description": "This Safeguarding of Children in Care Level 2 Course builds upon Level 1 training, providing advanced knowledge and skills for professionals with significant responsibilities for safeguarding children within care settings. It focuses on in-depth understanding, critical analysis, and application of safeguarding principles in complex scenarios.",
     "targetAudience": {
@@ -9577,7 +9577,7 @@ const courses = [
     "title": "Safeguarding of Children in Care Level 3 Course",
     "slug": "safeguarding-of-children-in-care-level-3-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredEleven,
     "description": "This Safeguarding of Children in Care Level 3 Course is designed for senior professionals and managers with significant responsibilities for child protection within care settings. It provides advanced knowledge and skills in safeguarding children in care, focusing on leadership, policy development, and best practice implementation.",
     "targetAudience": {
@@ -9651,7 +9651,7 @@ const courses = [
     "title": "Safeguarding of Vulnerable Adults Awareness – Scotland Course",
     "slug": "safeguarding-of-vulnerable-adults-awareness-scotland-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwelve,
     "description": "This Safeguarding of Vulnerable Adults Awareness – Scotland course provides an in-depth understanding of vulnerable adults in Scotland and the essential skills required to effectively safeguard them. It covers key aspects of safeguarding, including recognizing abuse, responding to concerns, and promoting a culture of safety and support.",
     "targetAudience": {
@@ -9725,7 +9725,7 @@ const courses = [
     "title": "Safeguarding of Vulnerable Adults Awareness Course",
     "slug": "safeguarding-of-vulnerable-adults-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredThirteen,
     "description": "This Safeguarding of Vulnerable Adults Awareness Course provides essential knowledge and skills to recognize and respond appropriately to concerns about abuse and neglect of vulnerable adults. It equips participants with the confidence to act responsibly and help protect vulnerable adults from harm.",
     "targetAudience": {
@@ -9827,7 +9827,7 @@ const courses = [
     "title": "SALT (Speech And Language Therapy) Course",
     "slug": "slt-speech-and-language-therapy-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredFourteen,
     "description": "This SALT (Speech and Language Therapy) Awareness Course provides an understanding of speech, language, and communication difficulties and the role of Speech and Language Therapists (SLTs) in supporting individuals with these challenges.",
     "targetAudience": {
@@ -9917,7 +9917,7 @@ const courses = [
     "title": "Self-Harm Awareness Course",
     "slug": "self-harm-awareness-course",
     "category": ["Care", "Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredFifteen,
     "description": "This Self-Harm Awareness Course provides an understanding of self-harm, its causes, and the support available for individuals who self-harm. It aims to raise awareness of self-harm, reduce stigma, and equip participants with the knowledge and skills to respond appropriately to concerns about self-harm.",
     "targetAudience": {
@@ -10008,7 +10008,7 @@ const courses = [
     "title": "Sensory Impairment Awareness Course",
     "slug": "sensory-impairment-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredSixteen,
     "description": "This Sensory Impairment Awareness course provides an in-depth understanding of sensory impairments, including vision, hearing, touch, taste, and smell. It explores the impact of these impairments on individuals and provides practical strategies for creating inclusive and supportive environments.",
     "targetAudience": {
@@ -10107,7 +10107,7 @@ const courses = [
     "title": "Slips, Trips, and Falls Awareness Course",
     "slug": "slips-trips-and-falls-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredSeventeen,
     "description": "This Slips, Trips and Falls Awareness Course provides essential knowledge and skills to identify and control the risks associated with slips, trips, and falls in the workplace. It aims to prevent injuries and create a safer working environment for all employees.",
     "targetAudience": {
@@ -10195,7 +10195,7 @@ const courses = [
     "title": "Staff Appraisal Skills Course",
     "slug": "staff-appraisal-skills-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredEighteen,
     "description": "This Staff Appraisal Skills Course equips managers with the knowledge and skills to conduct effective and meaningful performance appraisals. It focuses on best practices in performance management, ensuring fair, objective, and constructive feedback that drives employee growth and development.",
     "targetAudience": {
@@ -10292,7 +10292,7 @@ const courses = [
     "title": "Stress Awareness Course",
     "slug": "stress-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredNineteen,
     "description": "This Stress Awareness Course provides an understanding of stress, its causes, and its impact on individuals. It equips participants with practical strategies for recognizing and managing stress effectively, promoting overall well-being.",
     "targetAudience": {
@@ -10379,11 +10379,11 @@ const courses = [
 
   },
   {
-    "id": "£49.99",
+    "id": "49.99",
     "title": "Stroke and TIA Awareness Course",
     "slug": "stroke-and-tia-awareness-course",
     "category": ["Care"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwenty,
     "description": "This Stroke and TIA Awareness course provides an in-depth understanding of stroke and transient ischemic attack (TIA), two serious medical conditions that affect the brain. It covers key aspects of stroke and TIA, including risk factors, symptoms, prevention strategies, and the importance of timely medical intervention.",
     "targetAudience": {
@@ -10461,7 +10461,7 @@ const courses = [
     "title": "Substance Misuse Awareness Course",
     "slug": "substance-misuse-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentyOne,
     "description": "This Substance Misuse Awareness Course provides an understanding of substance misuse, its impact on individuals, families, and society, and the importance of promoting healthy lifestyles.",
     "targetAudience": {
@@ -10550,7 +10550,7 @@ const courses = [
     "title": "The Use of PPE Course",
     "slug": "the-use-of-ppe-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentyTwo,
     "description": "This The Use of PPE course provides an in-depth understanding of the use of personal protective equipment (PPE) in various healthcare and occupational settings. It covers key aspects of PPE selection, donning, doffing, and disposal, emphasizing safety and infection control.",
     "targetAudience": {
@@ -10645,7 +10645,7 @@ const courses = [
     "title": "Time Management Awareness Course",
     "slug": "time-management-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentyThree,
     "description": "This Time Management Awareness Course equips participants with the essential skills and techniques to effectively manage their time, increase productivity, and reduce stress.",
     "targetAudience": {
@@ -10735,7 +10735,7 @@ const courses = [
     "title": "Verification of Death Course",
     "slug": "verification-of-death-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentyFour,
     "description": "This Verification of Death Course provides healthcare professionals with the knowledge and skills necessary to accurately and sensitively verify the death of a patient. It covers the legal and ethical considerations, clinical procedures, and compassionate care for the deceased and their families.",
     "targetAudience": {
@@ -10800,7 +10800,7 @@ const courses = [
     "title": "Whistleblowing – Wales Course",
     "slug": "whistleblowing-wales-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentyFive,
     "description": "This Whistleblowing-Wales Course provides an understanding of the Public Interest Disclosure Act 1998 (PIDA) as it applies in Wales, which protects workers who make a “protected disclosure” about wrongdoing in the public interest.",
     "targetAudience": {
@@ -10886,7 +10886,7 @@ const courses = [
     "title": "Whistleblowing Awareness Course",
     "slug": "whistleblowing-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentySix,
     "description": "This Whistleblowing Awareness Course provides an understanding of the legal and ethical framework surrounding whistleblowing. It equips participants with the knowledge and skills to recognize potential wrongdoing, understand their rights and responsibilities, and report concerns appropriately.",
     "targetAudience": {
@@ -10959,7 +10959,7 @@ const courses = [
     "title": "Working at Height Awareness Course",
     "slug": "working-at-height-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentySeven,
     "description": "This Working at Height Awareness Course provides essential knowledge and skills to identify and control the risks associated with working at height. It emphasizes the importance of safe work practices and the use of appropriate safety equipment to prevent falls from height.",
     "targetAudience": {
@@ -11060,7 +11060,7 @@ const courses = [
     "title": "Workplace Sexual Harassment Awareness Course",
     "slug": "workplace-sexual-harassment-awareness-course",
     "category": ["Generic"],
-    "price": "£49.99",
+    "price": "49.99",
     "img": corseHundredTwentyEight,
     "description": "This Workplace Sexual Harassment course provides an in-depth understanding of workplace sexual harassment and the essential skills required to provide high-quality care and support for those affected by it. It covers key aspects of workplace sexual harassment, including communication, behavior management, and person-centered approaches.",
     "targetAudience": {
