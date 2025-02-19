@@ -21,31 +21,31 @@ function ContactForm() {
         });
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setStatus("Sending...");
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     setStatus("Sending...");
 
-        const response = await fetch("/form-api/sendEmail", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
-        });
+    //     const response = await fetch("/form-api/sendEmail", {
+    //         method: "POST",
+    //         headers: { "Content-Type": "application/json" },
+    //         body: JSON.stringify(formData),
+    //     });
 
-        const result = await response.json();
-        if (response.status === 200) {
-            setStatus("Email sent successfully!");
-            setFormData({
-                name: "",
-                dob: "",
-                email: "",
-                phone: "",
-                nationality: "",
-                message: ""
-            });
-        } else {
-            setStatus("Failed to send email.");
-        }
-    };
+    //     const result = await response.json();
+    //     if (response.status === 200) {
+    //         setStatus("Email sent successfully!");
+    //         setFormData({
+    //             name: "",
+    //             dob: "",
+    //             email: "",
+    //             phone: "",
+    //             nationality: "",
+    //             message: ""
+    //         });
+    //     } else {
+    //         setStatus("Failed to send email.");
+    //     }
+    // };
 
     return (
         <div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg">
