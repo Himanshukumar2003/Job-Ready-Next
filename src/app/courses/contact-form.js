@@ -49,7 +49,9 @@ function ContactForm() {
 
     return (
         <div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg">
-            <form onSubmit={handleSubmit}>
+            <form
+            //  onSubmit={handleSubmit}
+             >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="mb-4">
                         <input
