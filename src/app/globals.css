@@ -202,3 +202,23 @@ section{
 .price-small {
   font-size: 28px; /* Decimal ke baad ka size chhota */
 }
+
+.search-card{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  padding: 20px;
+  
+}
+
+.search-card h1{
+color:var(--theme-primary-one);
+font-size: 28px;
+}
+
+.search-card:hover{
+  background: var(--theme-primary-one);
+color: white !important;
+}
+
+.search-card:hover h1{
+  color: white;
+}

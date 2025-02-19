@@ -1,10 +1,10 @@
 "use client"
-export const LongTermsJson = [
+ const LongTermsJson = [
     {
         key: "BusinessManagement",
         id: 1,
         icon: "/assets/business-managment.png",
-        name: "BA (Hons) Business Management with Foundation Year",
+        title: "BA (Hons) Business Management with Foundation Year",
         sulg: "ba-hons-business-management-with-foundation-year",
         details: [
             {
@@ -52,7 +52,7 @@ export const LongTermsJson = [
         key: "ComputerScience",
         id: 2,
         icon: "/assets/computerscience.png",
-        name: "BSc (Hons) Computer Science with Foundation Year",
+        title: "BSc (Hons) Computer Science with Foundation Year",
         sulg: "bsc-hons-computer-science-with-foundation-year-two",
         details: [
             {
@@ -112,7 +112,7 @@ export const LongTermsJson = [
         key: "SocialCare",
         id: 3,
         icon: "/assets/computerscience.png",
-        name: "BSc (Hons) Health and Social Care with Foundation Year",
+        title: "BSc (Hons) Health and Social Care with Foundation Year",
         sulg: "bsc-hons-health-and-social-care-with-foundation-year-three",
         details: [
             {
@@ -165,3 +165,6 @@ export const LongTermsJson = [
         ]
     }
 ];
+
+
+export  {LongTermsJson}

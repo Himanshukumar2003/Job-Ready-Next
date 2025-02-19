@@ -2,12 +2,13 @@
 
 import { useState, useEffect, use } from "react";
 import { LongTermsJson } from "../corsesApi";
-import BreadcrumbDesign from "@/app/PageHeader";
+import BreadcrumbDesign from "@/app/header/PageHeader";
 import ApplyNowForm from "../form";
+import Navbar from "@/app/nav";
+import Footer from "@/app/footer";
 
 function LongTermsDetailsCard({ params }) {
   const { sulg } = use(params); 
-console.log(sulg);
 
   const [innerdata, setInnerdata] = useState(null);
   const [error, setError] = useState(null);
@@ -26,10 +27,11 @@ console.log(sulg);
 
   return (
     <>
+    <Navbar></Navbar>
       <BreadcrumbDesign 
         BreadCrumbImg={"/assets/breadcrumb1.webp"} 
         BreadcrumbPara={''} 
-        BreacrumbHeading={innerdata.name} 
+        BreacrumbHeading={innerdata.title} 
       />
        
       <div className='ptb60'>
@@ -62,6 +64,7 @@ console.log(sulg);
           </div>
         </div>
       </div> 
+      <Footer/>
     </>
   );
 }

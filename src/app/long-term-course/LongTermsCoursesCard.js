@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { FiChevronsRight } from "react-icons/fi";
-import { LongTermsJson } from "./corsesApi";
+import  {LongTermsJson}  from "./corsesApi";
 import Image from "next/image";
 
 const LongTermsCoursesCard = () => {
@@ -17,11 +17,11 @@ const LongTermsCoursesCard = () => {
               height={48}
                 className=" transition-transform duration-200 ease-in-out group-hover:scale-90 group-hover:-translate-y-1"
                 src={item.icon}
-                alt={item.name}
+                alt={item.title}
               />
             </div>
             <div>
-              <h4 className="font-extrabold text-lg mb-2">{item.name}</h4>
+              <h4 className="font-extrabold text-lg mb-2">{item.title}</h4>
               <Link href={`/long-term-course/${item.sulg}`} className="writebtn mt-4 flex items-center">
                 <span>Read More</span>
                 <FiChevronsRight className="ml-2" />

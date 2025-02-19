@@ -32,7 +32,8 @@ export default {
         "--theme-primary-one-light": "#fff0e6",
         "--theme-light": "#ffffff",
         "--theme-text-primary": "#160803",
-        "--theme-text-secondary": "#5e5e5e"
+        "--theme-text-secondary": "#5e5e5e",
+        "--theme-dark-gradient": "linear-gradient(112deg, #fff6e9, #ffb15d)"
       },
       boxShadow: {
         "--theme-lightshadow": "0 4px 46px 12px rgba(0,0,0,.02)",
@@ -55,4 +56,4 @@ export default {
     },
   },
   plugins: [],
-};
+}

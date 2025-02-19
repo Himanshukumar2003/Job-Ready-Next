@@ -1,7 +1,7 @@
 "use client";
 import Footer from "../footer";
 import Navbar from "../nav";
-import BreadcrumbDesign from "../PageHeader";
+import BreadcrumbDesign from "../header/PageHeader";
 import { LongTermsJson } from "./corsesApi";
 import LongTermsCoursesCard from "./LongTermsCoursesCard";
 

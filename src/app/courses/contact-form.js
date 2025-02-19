@@ -1,5 +1,4 @@
-"use clinet"
-
+"use client";
 import React, { useState } from "react";
 
 function ContactForm() {
@@ -12,6 +11,8 @@ function ContactForm() {
         message: ""
     });
 
+    const [status, setStatus] = useState("");
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -20,21 +21,39 @@ function ContactForm() {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Handle form submission here (e.g., send data to an API)
-        console.log(formData);
+        setStatus("Sending...");
+
+        const response = await fetch("/form-api/sendEmail", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        });
+
+        const result = await response.json();
+        if (response.status === 200) {
+            setStatus("Email sent successfully!");
+            setFormData({
+                name: "",
+                dob: "",
+                email: "",
+                phone: "",
+                nationality: "",
+                message: ""
+            });
+        } else {
+            setStatus("Failed to send email.");
+        }
     };
 
     return (
         <div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg">
-            <form onSubmit={handleSubmit} >
-
+            <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="mb-4">
                         <input
                             type="text"
-                            id="name"
                             placeholder="Name"
                             name="name"
                             value={formData.name}
@@ -43,12 +62,9 @@ function ContactForm() {
                             className="mt-1 block w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
-
                     <div className="mb-4">
-
                         <input
                             type="text"
-                            id="dob"
                             name="dob"
                             placeholder="Date of Birth"
                             value={formData.dob}
@@ -57,12 +73,9 @@ function ContactForm() {
                             className="mt-1 block w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
-
                     <div className="mb-4">
-
                         <input
                             type="email"
-                            id="email"
                             name="email"
                             placeholder="Email"
                             value={formData.email}
@@ -71,13 +84,10 @@ function ContactForm() {
                             className="mt-1 block w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
-
                     <div className="mb-4">
-
                         <input
                             type="tel"
                             placeholder="Phone Number"
-                            id="phone"
                             name="phone"
                             value={formData.phone}
                             onChange={handleChange}
@@ -85,15 +95,10 @@ function ContactForm() {
                             className="mt-1 block w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </div>
-
-
                 </div>
-
                 <div className="mb-4">
-
                     <input
                         type="text"
-                        id="nationality"
                         name="nationality"
                         value={formData.nationality}
                         onChange={handleChange}
@@ -102,11 +107,8 @@ function ContactForm() {
                         className="mt-1 block w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
-
                 <div className="mb-4">
-
                     <textarea
-                        id="message"
                         name="message"
                         placeholder="Message"
                         value={formData.message}
@@ -116,13 +118,8 @@ function ContactForm() {
                         className="mt-1 block w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     ></textarea>
                 </div>
-
-                <button
-                    type="submit"
-                    className="darkbtn"
-                >
-                    Submit
-                </button>
+                <button type="submit" className="darkbtn">Submit</button>
+                {status && <p className="mt-4 text-center text-blue-600">{status}</p>}
             </form>
         </div>
     );

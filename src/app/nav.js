@@ -7,6 +7,7 @@ import Image from "next/image";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [courseDropdown, setCourseDropdown] = useState(false);
+  const [mobileDropdown, setMobileDropdown] = useState(null);
 
   const NavbarUl = [
     { id: 1, Menu: "Home", MenuLink: "/" },
@@ -28,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-theme-light py-3">
-      <div className="container ">
+      <div className="container">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div>
@@ -42,9 +43,9 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden z-[9999] xl:flex items-center gap-x-5">
+          <ul className="hidden lg:flex items-center z-[999] gap-x-5">
             {NavbarUl.map((val) => (
-              <li key={val.id} className="relative ">
+              <li key={val.id} className="relative">
                 {val.isDropdown ? (
                   <div
                     className="cursor-pointer font-theme-light text-theme-text-primary text-[19px] relative"
@@ -53,8 +54,8 @@ const Navbar = () => {
                   >
                     {val.Menu}
                     {courseDropdown && (
-                      <div className="absolute top-full left-0  z-99">
-                        <ul className=" bg-white shadow-md rounded-md  w-48">
+                      <div className="absolute top-full left-0 z-99">
+                        <ul className="bg-white shadow-md rounded-md w-48">
                           {val.subMenu.map((sub) => (
                             <li
                               key={sub.id}
@@ -62,7 +63,7 @@ const Navbar = () => {
                             >
                               <Link
                                 href={sub.link}
-                                className="text-sm group-hover:-text--theme-primary-one"
+                                className="text-sm group-hover:text-theme-primary-one"
                               >
                                 {sub.name}
                               </Link>
@@ -96,18 +97,20 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <ul className="lg:hidden flex flex-col items-start mt-3 bg-white p-3 rounded shadow">
+          <ul className="lg:hidden  flex flex-col items-start mt-3 bg-white p-3 rounded shadow">
             {NavbarUl.map((val) => (
               <li key={val.id} className="py-2 w-full border-b">
                 {val.isDropdown ? (
                   <div>
                     <span
                       className="block text-theme-text-primary text-[19px] cursor-pointer"
-                      onClick={() => setCourseDropdown(!courseDropdown)}
+                      onClick={() =>
+                        setMobileDropdown(mobileDropdown === val.id ? null : val.id)
+                      }
                     >
                       {val.Menu}
                     </span>
-                    {courseDropdown && (
+                    {mobileDropdown === val.id && (
                       <ul className="pl-4">
                         {val.subMenu.map((sub) => (
                           <li key={sub.id} className="py-2">

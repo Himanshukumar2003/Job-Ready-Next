@@ -7,7 +7,7 @@ import { useState } from "react";
 import { IoIosStar } from "react-icons/io";
 import { IoIosStarHalf } from "react-icons/io";
 import { IoIosStarOutline } from "react-icons/io";
-import BreadcrumbDesign from "../PageHeader";
+import BreadcrumbDesign from "../header/PageHeader";
 
 function OurCourses() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -79,7 +79,7 @@ function OurCourses() {
                 >
                   <div
                     className="border border-solid border-[#bdbdbd] overflow-hidden -rounded--theme-normalradius relative "
-                    style={{ minHeight: "420px" }}
+                    style={{ minHeight: "450px" }}
                   >
                     <div className="h-40 overflow-hidden">
                       <Image
