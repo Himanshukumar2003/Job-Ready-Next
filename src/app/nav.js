@@ -61,9 +61,9 @@ const Navbar = () => {
                               key={sub.id}
                               className="py-2 px-4 hover:bg-gray-100 group"
                             >
-                              <Link
+                               <Link
                                 href={sub.link}
-                                className="text-sm group-hover:text-theme-primary-one"
+                                className="text-sm group-hover:-text--theme-primary-one"
                               >
                                 {sub.name}
                               </Link>
