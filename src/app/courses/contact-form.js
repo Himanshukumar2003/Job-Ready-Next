@@ -121,7 +121,7 @@ function ContactForm() {
                     ></textarea>
                 </div>
                 <button type="submit" className="darkbtn">Submit</button>
-                {status && <p className="mt-4 text-center text-blue-600">{status}</p>}
+                {/* {status && <p className="mt-4 text-center text-blue-600">{status}</p>} */}
             </form>
         </div>
     );
