@@ -9,7 +9,7 @@ import Link from "next/link";
 import Navbar from "../nav";
 import Footer from "../footer";
 import { IoIosStar, IoIosStarHalf, IoIosStarOutline } from "react-icons/io";
-import SearchInput from "./Search";
+import SearchInput from "./searchInput";
 
 const SearchPage = () => {
   const searchParams = useSearchParams();
@@ -33,7 +33,7 @@ const SearchPage = () => {
         <div className="rounded-xl p20 relative breadcrumb -bg--theme-dark-gradient">
           <div className="grid grid-cols-1 lg:grid-cols-8 justify-center">
             <div className="flex flex-col items-start justify-center p-10 md:col-span-8">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
                 Search Results for: <span className="text-white">{query}</span>
               </h2>
               <SearchInput className="w-full" />

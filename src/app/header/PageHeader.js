@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation"; // ✅ Router import किया
 import courses from "../courses/courses-api";
 import { LongTermsJson } from "../long-term-course/corsesApi";
-import SearchInput from "../search/Search";
+import SearchInput from "../search/searchInput";
 
 const BreadcrumbDesign = ({
   BreadCrumbImg,
