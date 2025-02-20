@@ -1,36 +1,36 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
-import Image from "next/image"; // ✅ Import Image
+import { useMemo } from "react";
+import Head from 'next/head';
 import courses from "../courses/courses-api";
 import { LongTermsJson } from "../long-term-course/corsesApi";
 import Link from "next/link";
 import Navbar from "../nav";
 import Footer from "../footer";
-import { IoIosStar, IoIosStarHalf, IoIosStarOutline } from "react-icons/io";
 import SearchInput from "./searchInput";
+
+const allCourses = [...courses, ...LongTermsJson];
 
 const SearchPage = () => {
   const searchParams = useSearchParams();
   const query = searchParams.get("query") || "";
-  const [filteredCourses, setFilteredCourses] = useState([]);
-  const allCourses = [...courses, ...LongTermsJson];
 
-  useEffect(() => {
-    if (query) {
-      const results = allCourses.filter((course) =>
-        course.title.toLowerCase().includes(query.toLowerCase())
-      );
-      setFilteredCourses(results);
-    }
+  const filteredCourses = useMemo(() => {
+    if (!query) return [];
+    return allCourses.filter((course) =>
+      course.title.toLowerCase().includes(query.toLowerCase())
+    );
   }, [query]);
 
   return (
     <>
+      <Head>
+        <title>Search Results for: {query}</title>
+      </Head>
       <Navbar />
       <div className="container">
-        <div className="rounded-xl p20 relative breadcrumb -bg--theme-dark-gradient">
+        <div className="rounded-xl p20 relative breadcrumb bg-theme-dark-gradient">
           <div className="grid grid-cols-1 lg:grid-cols-8 justify-center">
             <div className="flex flex-col items-start justify-center p-10 md:col-span-8">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
@@ -40,38 +40,35 @@ const SearchPage = () => {
             </div>
           </div>
         </div>
-      <div className=" mx-auto p-4 bg-[var(--theme-gradient)]">
-        {filteredCourses.length > 0 ? (
-          <>
-            {filteredCourses.map((course) => (
+        <div className="mx-auto p-4 bg-theme-gradient">
+          {filteredCourses.length > 0 ? (
+            filteredCourses.map((course) => (
               <div
                 key={course.id}
-                className=" mb-4 rounded-lg overflow-hidden search-card "
+                className="mb-4 rounded-lg overflow-hidden search-card"
               >
                 <Link
                   href={
                     LongTermsJson.some((c) => c.id === course.id)
                       ? `/long-term-course/${course.sulg}`
-                      : `/courses/${course.slug}`
+                      : `/courses/${course.sulg}`
                   }
-                  className="   rounded-md"
+                  className="rounded-md"
                 >
-                  <div className="">
-                    <h1 className=" font-bold mb-2">{course.title}</h1>
+                  <div>
+                    <h1 className="font-bold mb-2">{course.title}</h1>
                     <p className="mb-2">{course.description}</p>
                   </div>
                 </Link>
               </div>
-            ))}
-          </>
-        ) : (
-          <p className="-text--theme-primary-one font-semibold text-4xl text-center">
-            No results found.
-          </p>
-        )}
+            ))
+          ) : (
+            <p className="text-theme-primary-one font-semibold text-4xl text-center">
+              No results found.
+            </p>
+          )}
+        </div>
       </div>
-      </div>
-
       <Footer />
     </>
   );
