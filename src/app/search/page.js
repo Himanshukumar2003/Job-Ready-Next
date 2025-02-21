@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Link from "next/link";
 import Navbar from "../nav";
 import Footer from "../footer";
@@ -14,8 +14,9 @@ const SearchPage = () => {
 
   return (
     <>
+    <Suspense fallback={<Loading />}>
+
       <Navbar />
-      {/* Handles search params */}
       <SearchResults setQuery={setQuery} setFilteredCourses={setFilteredCourses} />
 
       <div className="container">
@@ -60,6 +61,8 @@ const SearchPage = () => {
       </div>
 
       <Footer />
+      </Suspense>
+
     </>
   );
 };
