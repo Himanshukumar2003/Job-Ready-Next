@@ -30,7 +30,7 @@ export default function SearchResults() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Search Results for: <span className="text-white">{query}</span>
             </h2>
-          <div className="w-full lg:w-[50%] ">
+          <div className="w-full lg:w-[70%] ">
             <SearchInput className="w-full" />
             </div>
           </div>
