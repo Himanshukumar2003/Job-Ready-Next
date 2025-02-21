@@ -1,74 +1,69 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
-import { useMemo } from "react";
-import Head from 'next/head';
-import courses from "../courses/courses-api";
-import { LongTermsJson } from "../long-term-course/corsesApi";
+import { useState } from "react";
+import Image from "next/image"; // ✅ Import Image
 import Link from "next/link";
 import Navbar from "../nav";
 import Footer from "../footer";
+import { IoIosStar, IoIosStarHalf, IoIosStarOutline } from "react-icons/io";
 import SearchInput from "./searchInput";
-
-const allCourses = [...courses, ...LongTermsJson];
+import SearchResults from "./searchResults"; // Import the new component
+import { LongTermsJson } from "../long-term-course/corsesApi";
 
 const SearchPage = () => {
-  const searchParams = useSearchParams();
-  const query = searchParams.get("query") || "";
-
-  const filteredCourses = useMemo(() => {
-    if (!query) return [];
-    return allCourses.filter((course) =>
-      course.title.toLowerCase().includes(query.toLowerCase())
-    );
-  }, [query]);
+  const [query, setQuery] = useState("");
+  const [filteredCourses, setFilteredCourses] = useState([]);
 
   return (
     <>
-      <Head>
-        <title>Search Results for: {query}</title>
-      </Head>
       <Navbar />
+      {/* Handles search params and filtering */}
+      <SearchResults setQuery={setQuery} setFilteredCourses={setFilteredCourses} />
+
       <div className="container">
-        <div className="rounded-xl p20 relative breadcrumb bg-theme-dark-gradient">
+        <div className="rounded-xl p20 relative breadcrumb -bg--theme-dark-gradient">
           <div className="grid grid-cols-1 lg:grid-cols-8 justify-center">
             <div className="flex flex-col items-start justify-center p-10 md:col-span-8">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Search Results for: <span className="text-white">{query}</span>
               </h2>
               <SearchInput className="w-full" />
             </div>
           </div>
         </div>
-        <div className="mx-auto p-4 bg-theme-gradient">
+
+        <div className="mx-auto p-4 bg-[var(--theme-gradient)]">
           {filteredCourses.length > 0 ? (
-            filteredCourses.map((course) => (
-              <div
-                key={course.id}
-                className="mb-4 rounded-lg overflow-hidden search-card"
-              >
-                <Link
-                  href={
-                    LongTermsJson.some((c) => c.id === course.id)
-                      ? `/long-term-course/${course.sulg}`
-                      : `/courses/${course.sulg}`
-                  }
-                  className="rounded-md"
+            <>
+              {filteredCourses.map((course) => (
+                <div
+                  key={course.id}
+                  className="mb-4 rounded-lg overflow-hidden search-card"
                 >
-                  <div>
-                    <h1 className="font-bold mb-2">{course.title}</h1>
-                    <p className="mb-2">{course.description}</p>
-                  </div>
-                </Link>
-              </div>
-            ))
+                  <Link
+                    href={
+                      LongTermsJson.some((c) => c.id === course.id)
+                        ? `/long-term-course/${course.sulg}`
+                        : `/courses/${course.slug}`
+                    }
+                    className="rounded-md"
+                  >
+                    <div>
+                      <h1 className="font-bold mb-2">{course.title}</h1>
+                      <p className="mb-2">{course.description}</p>
+                    </div>
+                  </Link>
+                </div>
+              ))}
+            </>
           ) : (
-            <p className="text-theme-primary-one font-semibold text-4xl text-center">
+            <p className="-text--theme-primary-one font-semibold text-4xl text-center">
               No results found.
             </p>
           )}
         </div>
       </div>
+
       <Footer />
     </>
   );

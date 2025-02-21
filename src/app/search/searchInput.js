@@ -1,25 +1,28 @@
-"use client";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-import { CiSearch } from "react-icons/ci";
+// /app/search/SearchInput.js
+'use client';
 
-function SearchInput() {
-  const [input, setInput] = useState("");
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { CiSearch } from 'react-icons/ci';
+
+export default function SearchInput({ className }) {
+  const [input, setInput] = useState('');
   const router = useRouter();
 
   const handleSearch = () => {
-    if (input.trim() === "") return;
+    if (input.trim() === '') return;
     router.push(`/search?query=${encodeURIComponent(input)}`);
   };
 
   return (
-    <div className="bg-white px-4 py-2 flex items-center justify-between w-fit md:w-full rounded-md shadow-lg">
+    <div className={`bg-white px-4 py-2 flex items-center justify-between rounded-md shadow-lg ${className}`}>
       <input
         className="focus:outline-none w-full text-black"
         type="text"
         placeholder="Search for Courses"
         value={input}
         onChange={(e) => setInput(e.target.value)}
+        onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
       />
       <CiSearch
         onClick={handleSearch}
@@ -28,5 +31,3 @@ function SearchInput() {
     </div>
   );
 }
-
-export default SearchInput;
