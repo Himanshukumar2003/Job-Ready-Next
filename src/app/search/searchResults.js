@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Mark as client component
 
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -20,7 +20,7 @@ const SearchResults = ({ setQuery, setFilteredCourses }) => {
     }
   }, [query, setQuery, setFilteredCourses]);
 
-  return null; // This component only handles logic, no UI.
+  return null; // No UI needed, just handles logic
 };
 
 export default SearchResults;

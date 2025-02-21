@@ -1,13 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image"; // ✅ Import Image
 import Link from "next/link";
 import Navbar from "../nav";
 import Footer from "../footer";
-import { IoIosStar, IoIosStarHalf, IoIosStarOutline } from "react-icons/io";
 import SearchInput from "./searchInput";
-import SearchResults from "./searchResults"; // Import the new component
+import SearchResults from "./searchResults";// Import fixed component
 import { LongTermsJson } from "../long-term-course/corsesApi";
 
 const SearchPage = () => {
@@ -17,7 +15,7 @@ const SearchPage = () => {
   return (
     <>
       <Navbar />
-      {/* Handles search params and filtering */}
+      {/* Handles search params */}
       <SearchResults setQuery={setQuery} setFilteredCourses={setFilteredCourses} />
 
       <div className="container">
@@ -36,10 +34,7 @@ const SearchPage = () => {
           {filteredCourses.length > 0 ? (
             <>
               {filteredCourses.map((course) => (
-                <div
-                  key={course.id}
-                  className="mb-4 rounded-lg overflow-hidden search-card"
-                >
+                <div key={course.id} className="mb-4 rounded-lg overflow-hidden search-card">
                   <Link
                     href={
                       LongTermsJson.some((c) => c.id === course.id)
@@ -50,8 +45,8 @@ const SearchPage = () => {
                   >
                     <div>
                       <h1 className="font-bold mb-2">{course.title}</h1>
-                      <p className="mb-2">{course.description}</p>
-                    </div>
+                      {course.description && <p className="mb-2">{course.description}</p>}
+                      </div>
                   </Link>
                 </div>
               ))}
