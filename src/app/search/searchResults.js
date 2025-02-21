@@ -26,11 +26,13 @@ export default function SearchResults() {
     <div className="container">
       <div className="rounded-xl p-20 relative breadcrumb -bg--theme-dark-gradient">
         <div className="grid grid-cols-1 lg:grid-cols-8 justify-center">
-          <div className="flex flex-col items-start justify-center p-10 md:col-span-8">
+          <div className="flex flex-col items-start justify-center md:col-span-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Search Results for: <span className="text-white">{query}</span>
             </h2>
+          <div className="w-full lg:w-[50%] ">
             <SearchInput className="w-full" />
+            </div>
           </div>
         </div>
       </div>
